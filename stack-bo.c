@@ -3,5 +3,5 @@ int main(int argc, char **argv) {
   return a[argc + 100];
 }
 
-// $ clang -o stack stack.c -Wall -g -fsanitize=address
+// $ clang -o stack stack-bo.c -Wall -g -fsanitize=address
 // $ ./stack
